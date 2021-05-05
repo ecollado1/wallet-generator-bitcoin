@@ -20,7 +20,7 @@ You'll need git, a Python3 (or later). We'll assume Ubuntu 18.04 LTS (Bionic Bea
 
 * __To run the program simply type the following in your terminal__:
 
-  ### python3 WalletGeneratorBitcoin.py
+  #### * __python3 WalletGeneratorBitcoin.py
 
 
 * __will have an output something like this.. and also the qr code images__:
