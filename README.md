@@ -6,21 +6,21 @@ Open Source Python Scripts Bitcoin Wallet Generator (WIF, P2WPKH, P2WSH, Encrypt
 You'll need git, a Python3 (or later). We'll assume Ubuntu 18.04 LTS (Bionic Beaver) for the package installs, which comes with Python 3 out of the box.
   
 * __import and install the following libraries__: 
-  * __pip install graphenebase__ *
-  * __pip install pyqrcode__ *
-  * __pip install ecdsa__ *
-  * __pip install hashlib__ *
-  * __pip install binascii__ *
-  * __pip install base58__ *
-  * __pip install base64__ *
-  * __pip install ecdsa __ *
-  * __pip install codecs__ *
+  * __pip install graphenebase__
+  * __pip install pyqrcode__
+  * __pip install ecdsa__
+  * __pip install hashlib__
+  * __pip install binascii__
+  * __pip install base58__
+  * __pip install base64__
+  * __pip install ecdsa __
+  * __pip install codecs__
 
 ### RUN
 
 * __To run the program simply type the following in your terminal__:
 
-  # python3 WalletGeneratorBitcoin.py
+  ### python3 WalletGeneratorBitcoin.py
 
 
 * __will have an output something like this.. and also the qr code images__:
