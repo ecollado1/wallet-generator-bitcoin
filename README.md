@@ -19,10 +19,8 @@ You'll need git, a Python3 (or later). We'll assume Ubuntu 18.04 LTS (Bionic Bea
 ### RUN
 
 * __To run the program simply type the following in your terminal__:
-
-   #### python3 WalletGeneratorBitcoin.py
-
-
+    sudo python3 WalletGeneratorBitcoin.py
+    
 * __will have an output something like this.. and also the qr code images__:
 
 * __ECDSA Public Key__:  0436679dfa9be4503e6179cc76d4f86e7c195ec7e378eae8d6d64041af607f993414947b62b27a3bacd40440bf6532759c67aee6b1314be7fac387f3e7e787f6a9
