@@ -13,13 +13,14 @@ You'll need git, a Python3 (or later). We'll assume Ubuntu 18.04 LTS (Bionic Bea
   * __pip install binascii__
   * __pip install base58__
   * __pip install base64__
-  * __pip install ecdsa __
+  * __pip install ecdsa__
   * __pip install codecs__
 
 ### RUN
 
 * __To run the program simply type the following in your terminal__:
-    sudo python3 WalletGeneratorBitcoin.py
+    # run
+       python3 WalletGeneratorBitcoin.py
     
 * __will have an output something like this.. and also the qr code images__:
 
