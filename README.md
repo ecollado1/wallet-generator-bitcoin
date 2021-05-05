@@ -6,15 +6,15 @@ Open Source Python Scripts Bitcoin Wallet Generator (WIF, P2WPKH, P2WSH, Encrypt
 You'll need git, a Python3 (or later). We'll assume Ubuntu 18.04 LTS (Bionic Beaver) for the package installs, which comes with Python 3 out of the box.
   
 * __import and install the following libraries__: 
-  # pip install graphenebase
-  # pip install pyqrcode
-  # pip install ecdsa
-  # pip install hashlib
-  # pip install binascii
-  # pip install base58
-  # pip install base64
-  # pip install ecdsa 
-  # pip install codecs
+  pip install graphenebase
+  pip install pyqrcode
+  pip install ecdsa
+  pip install hashlib
+  pip install binascii
+  pip install base58
+  pip install base64
+  pip install ecdsa 
+  pip install codecs
 
 ### RUN
 
@@ -36,25 +36,20 @@ Append Checksum to RIDEMP160(SHA256(ECDSA Public Key)):  00d9560c01a59cb933a5396
 
 Colocar Password Llave Privada: Hola Mundo
 
---------------------------------------------------------------
 DIRECCION PUBLICA 1:  1LpAiGhR698gu9vM1utKbvVnTjHk8pxe8r
 
 LLAVE PRIVADA HEX:  b9d60cd49ac63b8c36a73f6a553f5c1a439ca445c7ebb68f7d8c62d64172f7cf
 LLAVE PRIVADA WIF Encrypted Key (BIP0038) CON CONTRASEÑÁ:   6PRReBanKBh1tJ6fSoRYtTBenCRz9zFFXtsaWwSH7NMs1Ut9YyruJ7y9DC
 LLAVE PRIVADA WIF:   5KE8WtTxMybymNJgG2D15yk1eyBYZi16NaerB1CdHLmtzvKVGKi
 LLAVE PRIVADA WIF COMPRESS:  L3SxAv9yMaqPYq32HJKyNySqtayYKMyQiFY439tK98HAWEMZyA1P
---------------------------------------------------------------
 
-------------VERIFICANDO DIRECCION SI ES VALIDA----------------
+VERIFICANDO DIRECCION SI ES VALIDA
 Hash# 1  :  6b93a96a70115e062027581abb7cba142330447e74036bf84b6216fba4c5ee8f
 Hash# 2  :  94938aa309acfc761a2c25f248ff509f9d19dc90498e6b83730dcab868d19503
---------------------------------------
 [VERDADERO] checksum es valido!
---------------------------------------
 
------------------------------------------------------------------------------
------COMPARANDO SI LAS LLAVES SON GENERADAS CORRECTAMENTE--------------------
--------------- CON LA LIBRERIA BITCOINADDRESS--------------------------------
+COMPARANDO SI LAS LLAVES SON GENERADAS CORRECTAMENTE
+CON LA LIBRERIA BITCOINADDRESS
 
 DIRECCION PUBLICA 1:  1LpAiGhR698gu9vM1utKbvVnTjHk8pxe8r
 DIRECCION PUBLICA Compress:  18rXYohfcJHqZ1VeVjhSMybHuuEXwA3Zt6
